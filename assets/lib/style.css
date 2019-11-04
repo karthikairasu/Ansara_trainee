@@ -1,12 +1,13 @@
 body{
-	font-family: 'Play', sans-serif;
+	font-family: 'Changa', sans-serif;
 }
 .top-nav{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.top-nav ul a{
+.top-nav ul li a{
 	text-decoration: none;
 	color: black !important;
+	padding: 12px 15px !important;
 }
 a{
 	text-decoration: none;
@@ -28,4 +29,8 @@ a{
     content: "";
     background: no-repeat center center;
     background-size: 100% 100%;
+}
+.carousel-caption{
+    background-color: #0000008c;
+    border-radius: 40px;
 }
