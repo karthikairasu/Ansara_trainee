@@ -22,8 +22,27 @@
     <li class="nav-item">
       <a class="nav-link" href="#"><b>Home</b></a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#"><b>Courses</b></a>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      	<b>Courses</b>
+      </a>
+      	 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+	        <li><a class="dropdown-item" href="#">Android</a></li>
+	        <li class="dropdown-submenu">
+	            <a class="dropdown-item" tabindex="-1" href="#">
+	                Web Development
+	            </a>
+	            <ul class="dropdown-menu">
+	                <li><a class="dropdown-item" tabindex="-1" href="#">HTML Training</a></li>
+	                <li><a class="dropdown-item" href="#">Javascript Training</a>
+	                </li>
+	                <li><a class="dropdown-item" href="#">PHP Training</a></li>
+	                <li><a class="dropdown-item" href="#">Angular Training</a></li>
+	            </ul>
+	        </li>
+	        <li><a class="dropdown-item" href="#">IOT</a></li>
+	        <li><a class="dropdown-item" href="#">SAP</a></li>
+	      </ul>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#"><b>About Us</b></a>
@@ -49,24 +68,24 @@
 	  </ul>
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
-	      <img src="assets/images/s1.png" class="img-fluid" alt="Los Angeles" style="width: 100%;height: 39vw">
+	      <img src="assets/images/s2.png" class="img-fluid" alt="" style="width: 100%;height: 39vw">
 	      <div class="carousel-caption">
-	        <h3>Los Angeles</h3>
-	        <p>We had such a great time in LA!</p>
+	        <h3><span>Courses</span></h3>
+	        <p><span>JOB Oriented & Certification Training Courses</span></p>
 	      </div>   
 	    </div>
 	    <div class="carousel-item">
-	      <img src="assets/images/s2.png" class="img-fluid" alt="Chicago" style="width: 100%;height: 39vw">
+	      <img src="assets/images/s1.png" class="img-fluid" alt="" style="width: 100%;height: 39vw">
 	      <div class="carousel-caption">
-	        <h3>Chicago</h3>
-	        <p>Thank you, Chicago!</p>
+	        <h3><span>Career</span></h3>
+	        <p><span>Career & Placement Support</span></p>
 	      </div>   
 	    </div>
 	    <div class="carousel-item">
-	      <img src="assets/images/s3.png" class="img-fluid" alt="New York" style="width: 100%;height: 39vw">
+	      <img src="assets/images/s3.png" class="img-fluid" alt="" style="width: 100%;height: 39vw">
 	      <div class="carousel-caption">
-	        <h3>New York</h3>
-	        <p>We love the Big Apple!</p>
+	        <h3><span>Training</span></h3>
+	        <p><span>Enter as Trainee Exit as Professionals...</span></p>
 	      </div>   
 	    </div>
 	  </div>
@@ -83,6 +102,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+  <script type="text/javascript">
+  	$(".btn-group, .dropdown").hover(
+        function () {
+            $('>.dropdown-menu', this).stop(true, true).fadeIn("fast");
+            $(this).addClass('open');
+        },
+        function () {
+            $('>.dropdown-menu', this).stop(true, true).fadeOut("fast");
+            $(this).removeClass('open');
+        });
+  </script>
 </body>
 </html>
