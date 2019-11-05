@@ -11,8 +11,14 @@
   <link rel="manifest" href="assets/lib/manifest.json">
   <link rel="stylesheet" type="text/css" href="assets/lib/style.css">
 </head>
-<body>
-<nav class="navbar navbar-expand-md bg-white fixed-top top-nav">
+<body class="bg-light">
+<div class="d-none d-sm-block text-white" id="navbar" style="background-color: #003A6A">
+  <div class="row m-0 text-center py-1">
+  <div class="col-6">Email - info@ansara.co</div>
+  <div class="col-6">Contact - +918048667667</div>
+  </div>
+</div>
+<nav class="navbar navbar-expand-md bg-white sticky-top top-nav">
   <a class="navbar-brand" href="#"><b style="color:#2569A4">Ansara</b></a>
   <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -59,7 +65,7 @@
   </ul>
   </div>
 </nav>
-<div class="container-fluid mt-4 p-0">
+<div class="container-fluid p-0">
    <div id="demo" class="carousel slide" data-ride="carousel">
 	  <ul class="carousel-indicators">
 	    <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -96,6 +102,47 @@
 	    <span class="carousel-control-next-icon"></span>
 	  </a>
 	</div>
+    <div class="container py-5">
+  	  <h3 class="text-center pb-4">Career &amp; Placement Support</h3>
+      <div class="row card-deck text-justify">
+	    <div class="col-12 col-sm-3 mb-2 cr-shadow card">
+	    	<div class="py-3">
+                <h4>Get Hired Faster with ANSARA</h4>
+                <p class="pb-5">Our Placement Team will be sending you job opportunities and arranging interviews till you get placement in IT Companies. These certificate courses enable students to boost their career prospects. </p>
+                <div class="form-group text-center" style="position: absolute;bottom: 0px;left: 25%">
+	                <a href="#" class="btn btn-outline-info" style="">Get Started</a>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="col-12 col-sm-3 mb-2 cr-shadow card">
+	    	<div class="py-3">
+                <h4>Sourcing &amp; interview scheduling</h4>
+                <p class="pb-4">We will be sending your Updated Resume to IT Recruiters &amp; Get your Interview Scheduled in Bangalore and Chennai </p>
+                <div class="form-group text-center" style="position: absolute;bottom: 0px;left: 25%">
+	                <a href="#" class="btn btn-outline-info" style="">Get Started</a>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="col-12 col-sm-3 mb-2 cr-shadow  card">
+	    	<div class="py-3">
+                <h4>Hands-on Projects</h4>
+                <p class="">Our courses integrate Real-World hands-on training with Case Studies and Projects using datasets from companies like Amazon, Nike, Yelp, Walmart, etc. </p>
+                <div class="form-group text-center" style="position: absolute;bottom: 0px;left: 25%">
+	                <a href="#" class="btn btn-outline-info" style="">Get Started</a>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="col-12 col-sm-3 mb-2 cr-shadow card">
+	    	<div class="py-3">
+                <h4>Resume Building</h4>
+                <p class="">Integrating real world projects to make your resume world class as per Current Job Requirements </p>
+                <div class="form-group text-center" style="position: absolute;bottom: 0px;left: 25%">
+	                <a href="#" class="btn btn-outline-info" style="">Get Started</a>
+	            </div>
+	        </div>
+	    </div>
+	  </div>
+    </div>
 </div>
 
 <!-- script files -->
@@ -113,5 +160,17 @@
             $(this).removeClass('open');
         });
   </script>
+  <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 </body>
 </html>
