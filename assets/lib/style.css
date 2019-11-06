@@ -12,7 +12,7 @@ body{
 }
 a{
 	text-decoration: none;
-	color: black !important;
+	color: black;
 }
 .custom-toggler.navbar-toggler {
     border-color: rgb(0,0,0,.3);
@@ -59,7 +59,7 @@ a{
    background-repeat: repeat;
    clear: both;
 }
-/*----------------------------------*/
+/*-------------carrer---------------------*/
 .cr-image-content .image {
     position: relative;
     overflow: hidden;
@@ -106,7 +106,8 @@ a{
     max-width: 100%;
     height: auto;
 }
-.cr_parallax_bg {
+/*-------------footer---------------------*/
+.parallax_bg {
     display: block;
     position: absolute;
     bottom: 0;
@@ -116,4 +117,18 @@ a{
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+}
+.footer p{
+	color:#b4b4b4;
+}
+.footer h4{
+	color:white;
+}
+.footer .bt-nav li a{
+	color:#b4b4b4!important;
+	text-decoration: none;
+}
+.footer .bt-nav li a:hover{
+	color:#ffde69!important;
+	font-size: 18px;
 }
