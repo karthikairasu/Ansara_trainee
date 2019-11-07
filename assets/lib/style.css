@@ -132,3 +132,28 @@ a{
 	color:#ffde69!important;
 	font-size: 18px;
 }
+/*----------------course feature-----------*/
+.cf-sd{
+    box-shadow: 0px 0px 10px #000;
+}
+.cf-rlt{
+	border-radius: 0px 80px 80px 80px;
+}
+.cf-rc{
+	border-radius: 50px 50px 50px 50px;
+}
+.cf-rlb{
+	border-radius: 80px 80px 80px 0px;
+}
+.cf-rrt{
+	border-radius: 80px 0px 80px 80px;
+}
+.cf-rrb{
+	border-radius: 80px 80px 0px 80px;
+}
+.align-c{
+	text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
