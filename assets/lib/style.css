@@ -7,8 +7,11 @@ body{
 }
 .top-nav ul li a{
 	text-decoration: none;
-	color: black !important;
+	color: black;
 	padding: 12px 15px !important;
+}
+.top-nav ul li a:hover{
+   color: #b3121a;
 }
 a{
 	text-decoration: none;
