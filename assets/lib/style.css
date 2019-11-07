@@ -151,6 +151,23 @@ a{
 .cf-rrb{
 	border-radius: 80px 80px 0px 80px;
 }
+@media only screen and (max-width: 576px){
+.cf-rlt{
+	border-radius: 50px 50px 50px 50px;
+}
+.cf-rc{
+	border-radius: 50px 50px 50px 50px;
+}
+.cf-rlb{
+	border-radius: 50px 50px 50px 50px;
+}
+.cf-rrt{
+	border-radius: 50px 50px 50px 50px;
+}
+.cf-rrb{
+	border-radius: 50px 50px 50px 50px;
+}
+}
 .align-c{
 	text-align: center;
     display: flex;
