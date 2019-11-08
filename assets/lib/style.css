@@ -322,9 +322,9 @@ a{
   transition-duration: 0.3s;
 }
 .hvr-icon-hang:before {
-  content: "\f078";
+  content: "\f107";
   position: absolute;
-  right: 11px;
+  right: 14px;
   padding: 0 1px;
   font-family: FontAwesome;
   -webkit-transform: translateZ(0);
