@@ -8,8 +8,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Play|Changa|Lobster|Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="manifest" href="assets/lib/manifest.json">
   <link rel="stylesheet" type="text/css" href="assets/lib/style.css">
+  <link href="assets/animate/animate.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="d-none d-sm-block text-white" id="navbar" style="background-color: #003A6A">
@@ -105,7 +107,7 @@
 	  </a>
 	</div><!-- ------carousel close ----->
 
-	<section class="" style="background: linear-gradient(-45deg,#2569A4,#b3121a);color: #fff;padding: 15px 0;margin-bottom: 50px;">
+	<section class="" style="background: linear-gradient(-45deg,#2569A4,#b3121a);color: #fff;padding: 15px 0;margin-bottom: 10px;">
         <div class="container">
             <div class="row m-0">
                 <div class="col-md-4 d-flex align-items-center">
@@ -195,9 +197,9 @@
 	  </div>
     </div> <!-- carreer and support close -->
 
-    <section class="bg-white">
-       <h2 class="py-4" style="text-align:center;">Key Features</h2>
-        <div class="row pb-5 m-0">
+    <section class="bg-white borderdgn">
+       <h2 class="py-4 bg-white" style="text-align:center;">Key Features</h2>
+        <div class="row pb-5 m-0 bg-white">
             <div class="col-md-3 col-sm-3 col-6 p-0">
                 <div class="text-center">
                     <div class=""> 
@@ -391,6 +393,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="assets/wow/wow.min.js"></script>
   <script type="text/javascript">
   	$(".btn-group, .dropdown").hover(
         function () {
@@ -413,6 +416,9 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+</script>
+<script>
+  new WOW().init();
 </script>
 </body>
 </html>
