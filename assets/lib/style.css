@@ -5,6 +5,9 @@ body{
 .text-orange{
 	color: #fd5308;
 }
+.txt-de{
+    text-decoration: none!important;
+}
 .bg-orange{
 	background-color: #fd5308;
 }
@@ -220,6 +223,51 @@ a{
 }
 .pc-sd{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pc-overlayl{
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.pc-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.pc-contl:hover .pc-overlayl {
+  width: 100%;
+  left: 0;
+}
+.pc-overlayr{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.pc-contr:hover .pc-overlayr {
+  width: 100%;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
 }
 /*--------------------hover effect-------------------*/
 
