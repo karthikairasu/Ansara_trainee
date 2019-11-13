@@ -2,6 +2,18 @@ body{
 	font-family: 'Changa', sans-serif;
 	background-color: #f5f5f5;
 }
+.t-bn{
+font-family: 'Bebas Neue', cursive;
+}
+.t-tw{
+font-family: 'Titillium Web', sans-serif;
+}
+.t-ry{
+font-family: 'Rye', cursive;
+}
+.t-kt{
+font-family: 'Kanit', sans-serif;
+}
 .text-orange{
 	color: #fd5308;
 }
