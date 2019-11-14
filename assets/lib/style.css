@@ -447,14 +447,21 @@ a{
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
+.fig{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
 /* Zoom In #1 */
-.hover01 .fig img {
+.hover1 .fig img {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-.hover01 .fig:hover img {
+.hover1 .fig:hover img {
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
 }
