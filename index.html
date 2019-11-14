@@ -572,8 +572,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="assets/wow/wow.min.js"></script>
-  <script type="text/javascript">
-  	$(".btn-group, .dropdown").hover(
+    <script type="text/javascript">
+  	 $(".btn-group, .dropdown").hover(
         function () {
             $('>.dropdown-menu', this).stop(true, true).fadeIn("fast");
             $(this).addClass('open');
@@ -582,21 +582,21 @@
             $('>.dropdown-menu', this).stop(true, true).fadeOut("fast");
             $(this).removeClass('open');
         });
-  </script>
-  <script>
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-</script>
-<script>
-  new WOW().init();
-</script>
+    </script>
+    <script>
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		var currentScrollPos = window.pageYOffset;
+		  if (prevScrollpos > currentScrollPos) {
+		    document.getElementById("navbar").style.top = "0";
+		  } else {
+		    document.getElementById("navbar").style.top = "-50px";
+		  }
+		  prevScrollpos = currentScrollPos;
+		}
+    </script>
+	<script>
+	  new WOW().init();
+	</script>
 </body>
 </html>
