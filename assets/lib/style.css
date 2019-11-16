@@ -26,7 +26,7 @@ body{
 .top-nav{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.top-nav ul li a{
+.top-nav ul li .nav-link {
 	text-decoration: none;
 	color: black;
 	padding: 12px 15px !important;
@@ -81,6 +81,7 @@ a{
 }
 .dropdown-menu li a{
     border: 1px solid #e7e7e7;
+    padding: 10px 15px!important;
 }
 .dropdown-item.active, .dropdown-item:active {
     color: #fff;
