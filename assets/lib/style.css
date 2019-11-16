@@ -70,9 +70,19 @@ a{
 
 .dropdown-submenu:hover>.dropdown-menu {
     display: block;
+    padding: 0px;
 }
 .dropdown-menu {
     min-width: 16rem;
+    padding: 0px;
+}
+.dropdown-menu li a{
+    border: 1px solid #e7e7e7;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #eae8e8;
 }
 /*-------------border style ->inner div bg-color give------------------*/
 .borderdgn {
