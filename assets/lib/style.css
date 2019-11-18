@@ -570,3 +570,14 @@ if it's not present, don't show loader */
     color: #fff;
     top: 5px;
 }
+/*-------- Contact us ---------------*/
+.ctu-sd:hover{
+    box-shadow: 0 0 30px 0 rgba(67,67,67,.15);
+    -webkit-transform: translateY(-5px);
+    background: #fff;
+    transform: translateY(-5px);
+    padding: 0 1px;
+}
+.ctu-sd{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

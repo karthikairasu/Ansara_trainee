@@ -77,4 +77,4 @@
 		        scrollTop : 0                       // Scroll to top of body
 		    }, 500);
 		});
-//========== end ========================//	
+//========== end ========================//	$(".navbar-brand img").attr("src", "assets/images/ansara.png");
