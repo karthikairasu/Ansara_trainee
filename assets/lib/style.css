@@ -516,6 +516,7 @@ a{
 		left: 125%;
 	}
 }
+/*-------- Loader gif ---------------*/
 /* Paste this css to your style sheet file or under head tag */
 /* This only works with JavaScript, 
 if it's not present, don't show loader */
@@ -586,4 +587,16 @@ if it's not present, don't show loader */
     width: 100px;
     height: 2%;
     border-bottom: 3px solid orange;
+}
+/*-------- Services ---------------*/
+.cls_rm_list{
+  list-style: none;
+}
+.cls_rm_list li:before {
+  font-family: 'Font Awesome 5 Free'; 
+  font-weight: 900; 
+  content: "\f0a4";
+  float: left;
+  margin-left: -1.5em;
+  color: #e16926;
 }
