@@ -600,3 +600,19 @@ if it's not present, don't show loader */
   margin-left: -1.5em;
   color: #e16926;
 }
+.fig::after{
+	content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow: hidden;
+}
