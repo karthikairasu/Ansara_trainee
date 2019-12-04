@@ -551,6 +551,7 @@ if it's not present, don't show loader */
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    z-index: 999;
 }
 #return-to-top i {
     color: #fff;
@@ -564,7 +565,6 @@ if it's not present, don't show loader */
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    z-index: 999;
 }
 #return-to-top:hover {
     background: rgba(179, 18, 26, 0.9);
