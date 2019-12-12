@@ -1,10 +1,10 @@
 //========== loader ========================//
 	    //paste this code under the head tag or in a separate js file.
 		// Wait for window load
-		//$(window).load(function() {
+		$(window).load(function() {
 			// Animate loader off screen
-		//	$(".se-pre-con").fadeOut("slow");;
-		//});
+			$(".se-pre-con").fadeOut("slow");;
+		});
 //========== dropdown hover ========================//	
   	 $(".btn-group, .dropdown").hover(
         function () {
